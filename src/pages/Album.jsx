@@ -16,7 +16,7 @@ import bee2 from "../assets/album/Bee2.png";
 import bee3 from "../assets/album/Bee3.png";
 import bee4 from "../assets/album/Bee4.png";
 
-import nofence from "../assets/album/NoFence.png";
+import nofence from "../assets/album/Nofence.png";
 import donttry from "../assets/album/Donttry.png";
 import stayby from "../assets/album/Stayby.png";
 import one from "../assets/album/One.png";
