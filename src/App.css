@@ -1,0 +1,110 @@
+@media screen and (max-width: 480px) {
+  .app-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+@font-face {
+  font-family: 'BMKkubulim';
+  src: url('./assets/fonts/BMKkubulim.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  /* 가로 중앙 */
+  align-items: center;      /* 세로 중앙 */
+}
+
+/* 모바일 앱 컨테이너 */
+.app-container {
+  position: relative;       /* ✅ 안의 absolute 요소 기준 */
+  width: 393px;             /* iPhone 기준 너비 */
+  height: 852px;            /* iPhone 14 Pro 높이 예시 */
+  background: #FAF2D8;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+}
+
+
+
+/* 공통 스타일 */
+.side-menu a,
+.side menu div {
+  position: absolute;
+  font-family: 'Bowlby One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* 개별 좌표 */
+.menu-who {
+  width: 116px;
+  height: 31px;
+  left: 30px;
+  top: 131px;
+}
+
+.menu-album {
+  width: 76px;
+  height: 31px;
+  left: 30px;
+  top: 183px;
+}
+
+.menu-sns {
+  width: 46px;
+  height: 31px;
+  left: 30px;
+  top: 235px;
+}
+
+.menu-home {
+  width: 116px;
+  height: 31px;
+  left: 30px;
+  top: 285px;
+}
+
+
+.green1 {
+  position: absolute;
+  width: 220px;
+  height: 240px;
+  left: -100;
+  top: 700px;
+  z-index: 2;
+}
+.green2 {
+  position: absolute;
+  width: 300px;
+  height: 380px;
+  left: 60px;
+  top: 490px;
+  z-index: 2;
+}
+.green3 {
+  position: absolute;
+  width: 340px;
+  height: 380px;
+  left: 8px;
+  top: 600px;
+  z-index: 1;
+}

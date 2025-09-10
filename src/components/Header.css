@@ -1,0 +1,91 @@
+/* 상단 헤더 */
+.header {
+  position: fixed;
+  width: 393px;
+  height: 120px; /* 피그마 기준 여유 */
+  background: rgba(249, 241, 220, 0.7);
+  z-index: 10;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+/* 왼쪽 텍스트 */
+.brand-title {
+  position: absolute;
+  left: 33px;
+  top: 50px;
+  font-family: "Bowlby One", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #000000;
+}
+
+/* 메뉴 버튼 wrapper */
+.menu-icon-wrap {
+  position: absolute;
+  right: 33px;
+  top: 66px;
+  width: 22px;
+  height: 18px;
+  cursor: pointer;
+  z-index: 2000; /* 메뉴보다 위 */
+}
+
+/* 아이콘 두 개 겹치기 */
+.menu-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 18px;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2000;
+}
+
+/* 상태 전환 */
+.menu-icon.visible {
+  opacity: 1;
+}
+.menu-icon.hidden {
+  opacity: 0;
+}
+
+/* 오버레이는 앱 전체 덮음 */
+.menu-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 900;
+}
+
+.menu-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 오른쪽 슬라이드 메뉴 */
+.side-menu {
+  position: absolute;
+  top: 0;
+  right: -235px;   /* 메뉴 폭만큼 완전히 숨김 */
+  width: 235px;
+  height: 100%;
+  background: rgba(249, 241, 220, 0.95);
+  transition: right 0.3s ease-in-out;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.side-menu.open {
+  right: 0; /* 열리면 딱 붙어서 보이게 */
+}

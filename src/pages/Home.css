@@ -1,0 +1,173 @@
+.home {
+  text-align: center;
+}
+
+.slogan {
+  position: absolute;
+  left: 33px;
+  top: 85px;
+
+  font-family: 'BMKkubulim', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  color: #000000;
+
+  text-align: left;
+  white-space: pre-line;
+}
+
+
+.image-wrap {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* 종이 배경 */
+.paperback {
+  position: absolute;
+  width: 382px;
+  height: 573px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+/* 인물 */
+.nozern {
+  position: absolute;
+  width: 313px;
+  height: 467px;
+  left: 37px;
+  top: 74px;
+  z-index: 4;
+}
+
+
+
+.vector1 {
+  position: absolute;
+  width: 299px;
+  height: 144.21px;
+  left: -7px;
+  top: 665px;
+  z-index: 3;
+}
+
+.vector2 {
+  position: absolute;
+  width: 67px;
+  height: 320px;
+  left: 296px;
+  top: 385px;
+  z-index: 1;
+}
+
+
+
+.ellipse {
+  position: absolute;
+  width: 166px;
+  height: 166px;
+  left: 25px;
+  top: 417px;
+  z-index: 0;
+}
+
+.blockback {
+  position: absolute;
+  width: 393px;
+  height: 182px;
+  left: 0px;
+  top: 801px;
+  z-index: 5;
+}
+
+
+
+.lettere {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  left: 268px;
+  top: 560px;
+  z-index: 6;
+}
+
+.lettern {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 258.62px;
+  top: 710px;
+  z-index: 6;
+}
+
+.lettern2 {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  left: 270px;
+  top: 345px;
+  z-index: 7;
+}
+
+.lettero3 {
+  position: absolute;
+  width: 80px;
+  height: 95px;
+  left: 220px;
+  top: 417.15px;
+  z-index: 1;
+}
+
+.letterr {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 290px;
+  top: 630px;
+  z-index: 7;
+}
+
+.letters {
+  position: absolute;
+  width: 60px;
+  height: 75px;
+  left: 234.47px;
+  top: 289.11px;
+  z-index: 6;
+}
+
+.letterz {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 280px;
+  top: 470px;
+  z-index: 6;
+}
+
+
+
+.star1 {
+  position: absolute;
+  width: 57.68px;
+  height: 57.68px;
+  left: 55px;
+  top: 312px;
+  z-index: 8;
+}
+
+.star2 {
+  position: absolute;
+  width: 42.3px;
+  height: 42.3px;
+  left: 50.49px;
+  top: 362.68px;
+  z-index: 8;
+}
