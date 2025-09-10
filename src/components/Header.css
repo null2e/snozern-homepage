@@ -1,7 +1,8 @@
 /* 상단 헤더 */
 .header {
   position: fixed;
-  width: 393px;
+  width: 100%;
+  max-width: 393px;
   height: 120px; /* 피그마 기준 여유 */
   background: rgba(249, 241, 220, 0.7);
   z-index: 10;
