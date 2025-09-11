@@ -27,8 +27,8 @@ html, body, #root {
 /* 모바일 앱 컨테이너 */
 .app-container {
   position: relative;       /* ✅ 안의 absolute 요소 기준 */
-  width: 393px;             /* iPhone 기준 너비 */
-  height: 852px;            /* iPhone 14 Pro 높이 예시 */
+  width: 393px;
+  height: 853px;          /* iPhone 14 Pro 높이 예시 */
   background: #FAF2D8;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);

@@ -4,10 +4,9 @@ import "./Header.css";
 
 export default function Header({ isOpen, toggleMenu }) {
   return (
-    <>
-      <header className="header">
-        <h1 className="brand-title">THIS SHIT HITS</h1>
-      </header>
+    <header className="header">
+      <h1 className="brand-title">THIS SHIT HITS</h1>
+
       <div className="menu-icon-wrap" onClick={toggleMenu}>
         <img
           src={menuIcon1}
@@ -20,6 +19,6 @@ export default function Header({ isOpen, toggleMenu }) {
           className={`menu-icon ${isOpen ? "visible" : "hidden"}`}
         />
       </div>
-    </>
+    </header>
   );
 }
