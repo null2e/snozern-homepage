@@ -18,6 +18,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
+        
         <Header isOpen={isOpen} toggleMenu={toggleMenu} />
 
         <Routes>

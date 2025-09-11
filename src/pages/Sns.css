@@ -13,7 +13,7 @@
 .snstitle {
     position: absolute;
     left: 50%;
-    top: 85px;
+    top: 75px;
     transform: translateX(-50%);
 
     font-family: 'BMKkubulim', sans-serif;
