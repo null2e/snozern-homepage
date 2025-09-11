@@ -1,6 +1,6 @@
 /* 상단 헤더 */
 .header {
-position: absolute;     /* app-container 기준 */
+  position: absolute;     /* app-container 기준 */
   top: 0;
   left: 0;
   width: 100%;  
@@ -12,8 +12,8 @@ position: absolute;     /* app-container 기준 */
   border-top-right-radius: 20px;
   overflow: hidden;
 
-  padding-top: env(safe-area-inset-top);
-}
+  padding-top: env(safe-area-inset-top, 20px);
+  box-sizing: border-box;}
 
 /* 왼쪽 텍스트 */
 .brand-title {
