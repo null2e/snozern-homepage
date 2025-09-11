@@ -10,7 +10,7 @@
 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  overflow: hidden;
+  overflow: visible;
 
   padding-top: env(safe-area-inset-top, 20px);
   box-sizing: border-box;
@@ -57,7 +57,7 @@
   width: 22px;
   height: 18px;
   cursor: pointer;
-  z-index: 2000; /* 메뉴보다 위 */
+  z-index: 9999; /* 메뉴보다 위 */
 }
 
 /* 아이콘 두 개 겹치기 */
