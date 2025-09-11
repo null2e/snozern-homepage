@@ -29,6 +29,7 @@
 
 @media screen and (max-width: 480px) {
   .menu-icon-wrap {
+    position: fixed;
     right: 20px;
     top: 30px;
     transform: none; /* header translateX 영향 제거 */
