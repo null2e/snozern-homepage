@@ -1,6 +1,6 @@
 /* 상단 헤더 */
 .header {
-  position: absolute;     /* app-container 기준 */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;  
