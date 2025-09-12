@@ -40,6 +40,10 @@ html, body, #root {
   user-select: none;
 }
 
+.main-content {
+  position: relative;
+  z-index: 1;
+}
 
 
 /* 공통 스타일 */

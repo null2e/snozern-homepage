@@ -21,14 +21,16 @@ function App() {
         
         <Header isOpen={isOpen} toggleMenu={toggleMenu} />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/whoishe" element={<WhoIsHe />} />
-          <Route path="/Sns" element={<Sns />} />
-          <Route path="/Album" element={<Album />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/whoishe" element={<WhoIsHe />} />
+            <Route path="/Sns" element={<Sns />} />
+            <Route path="/Album" element={<Album />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </main>
 
         <div
           className={`menu-overlay ${isOpen ? "open" : ""}`}
