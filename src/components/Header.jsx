@@ -7,21 +7,20 @@ export default function Header({ isOpen, toggleMenu }) {
     <>
       <header className="header">
         <h1 className="brand-title">THIS SHIT HITS</h1>
-      </header>
+        <div className="menu-icon-wrap" onClick={toggleMenu}>
+          <img
+            src={menuIcon1}
+            alt="menu"
+            className={`menu-icon ${isOpen ? "hidden" : "visible"}`}
+          />
+          <img
+            src={menuIcon2}
+            alt="close"
+            className={`menu-icon ${isOpen ? "visible" : "hidden"}`}
+          />
+        </div>
 
-      {/* header 밖에 따로 배치 */}
-      <div className="menu-icon-wrap" onClick={toggleMenu}>
-        <img
-          src={menuIcon1}
-          alt="menu"
-          className={`menu-icon ${isOpen ? "hidden" : "visible"}`}
-        />
-        <img
-          src={menuIcon2}
-          alt="close"
-          className={`menu-icon ${isOpen ? "visible" : "hidden"}`}
-        />
-      </div>
+      </header>
     </>
   );
 }
