@@ -21,7 +21,7 @@ function App() {
         
         <Header isOpen={isOpen} toggleMenu={toggleMenu} />
 
-
+        <div className="page-content-wrapper">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
@@ -30,6 +30,7 @@ function App() {
             <Route path="/Album" element={<Album />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
+        </div>
 
 
         <div
