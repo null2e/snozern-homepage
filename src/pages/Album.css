@@ -1,7 +1,7 @@
 .album {
   position: relative;
   min-height: 852px;
-  overflow-y: auto;
+  /*overflow-y: auto;*/
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 

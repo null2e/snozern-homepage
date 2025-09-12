@@ -1,5 +1,6 @@
 .home {
   text-align: center;
+  overflow: hidden;
 }
 
 .slogan {
@@ -53,7 +54,7 @@
   position: absolute;
   width: 299px;
   height: 144.21px;
-  left: -7px;
+  left: 0px;
   top: 665px;
   z-index: 3;
 }
@@ -81,7 +82,7 @@
 .blockback {
   position: absolute;
   width: 393px;
-  height: 182px;
+  height: 52px;
   left: 0px;
   top: 801px;
   z-index: 5;
