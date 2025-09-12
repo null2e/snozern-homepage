@@ -1,9 +1,6 @@
 /* 상단 헤더 */
 .header {
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; */
+  position: relative;
   height: 105px;
   background: rgba(250, 242, 216, 0);
   z-index: 100;
@@ -11,16 +8,12 @@
 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  overflow: visible;
-
-  padding-top: env(safe-area-inset-top, 20px);
-  box-sizing: border-box;
 }
 
 
 /* 왼쪽 텍스트 */
 .brand-title {
-  position: absolute;
+  position: relative;
   left: 33px;
   top: 25px;
   font-family: "Bowlby One", sans-serif;
@@ -28,6 +21,7 @@
   font-size: 20px;
   line-height: 31px;
   color: #000000;
+  display: inline-block;
 }
 
 /* 메뉴 버튼 wrapper */
