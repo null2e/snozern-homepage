@@ -23,7 +23,7 @@ function App() {
 
         <div className="page-content-wrapper">
           <Routes>
-            <Route path="/" element={<WhoIsHe />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/whoishe" element={<WhoIsHe />} />
             <Route path="/Sns" element={<Sns />} />
