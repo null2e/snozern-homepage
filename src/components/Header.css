@@ -11,13 +11,14 @@
   z-index: 100;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  -webkit-transform: translateZ(0);
 }
 
 /* --- 헤더 내부 요소 --- */
 .brand-title {
   position: absolute; /* header를 기준으로 위치 */
   left: 33px;
-  top: 42px;
+  top: 26px;
   font-family: "Bowlby One", sans-serif;
   font-weight: 400;
   font-size: 20px;
