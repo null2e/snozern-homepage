@@ -20,7 +20,8 @@ html, body, #root {
 .app-container {
   position: relative;
   width: 393px;
-  height: 100vh;
+  height: 100vh; /* 현재 화면 높이에 100% 맞춤 */
+  max-height: 853px;
   background: #FAF2D8;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);

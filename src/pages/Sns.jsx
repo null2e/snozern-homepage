@@ -117,6 +117,7 @@ export default function Sns() {
         </h1>
         <img src={yet} alt="" className="yet" />
       </div>
+      <div className="spacer"></div>
     </div>
   );
 }
