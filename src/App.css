@@ -44,10 +44,6 @@ html, body, #root {
 .page-content-wrapper {
   flex-grow: 1; /* 헤더를 제외한 나머지 공간을 모두 차지 */
   overflow-y: auto; /* 이 영역만 세로 스크롤을 허용 */
-  position: relative;
-  z-index: 1;
-  padding-top: 105px;      /* 👈 헤더 높이(105px)만큼 안쪽 여백 추가 */
-  box-sizing: border-box;
 }
 
 
