@@ -16,13 +16,14 @@
   box-sizing: border-box;
 }
 
+/*
 @media screen and (max-width: 480px) {
   .header {
-    position: fixed; /* 스크롤과 무관하게 항상 상단 */
+    position: fixed;
     top: 0;
     left: 50%;
-    transform: translateX(-50%); /* 가운데 정렬 */
-    max-width: 393px; /* app-container 너비와 동일 */
+    transform: translateX(-50%); 
+    max-width: 393px; 
     border-radius: 20px 20px 0 0;
   }
 }
@@ -32,11 +33,11 @@
     position: fixed;
     right: 20px;
     top: 30px;
-    transform: none; /* header translateX 영향 제거 */
-    z-index: 3000;   /* 혹시 모를 겹침 대비 */
+    transform: none; 
+    z-index: 3000;
   }
 }
-
+*/
 
 /* 왼쪽 텍스트 */
 .brand-title {

@@ -21,7 +21,7 @@ function App() {
         
         <Header isOpen={isOpen} toggleMenu={toggleMenu} />
 
-        <main className="main-content">
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
@@ -30,7 +30,7 @@ function App() {
             <Route path="/Album" element={<Album />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
-        </main>
+
 
         <div
           className={`menu-overlay ${isOpen ? "open" : ""}`}
