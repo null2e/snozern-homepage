@@ -37,9 +37,14 @@ export default function Home() {
             <img src={vector2} alt="vector line" className="vector2" />
         </div>
 
-        <img src={ellipse} alt="ellipse circle" className="ellipse" />
+        <div className="circle">
+            <img src={ellipse} alt="ellipse circle" className="ellipse" />
+        </div>
 
-        <img src={blockback} alt="blockback block" className="blockback" />
+        <div className="Stars">
+            <img src={star1} alt="star1 star" className="star1" />
+            <img src={star2} alt="star2 star" className="star2" /> 
+        </div>
 
         <div className="Letter">
             <img src={lettere} alt="lettere letter" className="lettere" />
@@ -51,9 +56,9 @@ export default function Home() {
             <img src={letterz} alt="letterz letter" className="letterz" />
         </div>
 
-        <div className="Stars">
-            <img src={star1} alt="star1 star" className="star1" />
-            <img src={star2} alt="star2 star" className="star2" /> 
+
+         <div className="block">
+            <img src={blockback} alt="blockback block" className="blockback" />
         </div>
     </div>
   );
