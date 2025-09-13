@@ -42,28 +42,9 @@ export default function WhoIsHe() {
   return (
     <div className="whoishe">
       <h2 className="title">Who Is Snozern?</h2>
-      <img src={rectangle} alt="" className="rectangle" />
-      <h1 className="sub1">
-        Snozern (전승호)<br /><br />
-        열네살부터<br />
-        베이스와<br />
-        사랑에빠진남자
-      </h1>
-      <h1 className="sub2">
-        NMIXX, pH-1, g0nny 등<br />
-        다양한 아티스트들과 협업중!
-      </h1>
-      <h1 className="sub3">nozern</h1>
-      <h1 className="sub4">
-        다양한 활동들로<br />
-        베이스의 매력을<br />
-        널리 알리는 중<br />
-        ^_^
-      </h1>
-      <h1 className="sub5">JOY</h1>
-      
 
       <div className="main1">
+        <img src={rectangle} alt="" className="rectangle" />
         <img src={paper2} alt="" className="paper2" />
         <img src={profile1} alt="profile image" className="profile1" />
         <img src={star3} alt="" className="star3" />
@@ -72,13 +53,23 @@ export default function WhoIsHe() {
         <div className="introduce">
           <img src={paper1} alt="" className="paper1" />
           <img src={tape} alt="" className="tape" />
+          <h1 className="sub1">
+            Snozern (전승호)<br /><br />
+            열네살부터<br />
+            베이스와<br />
+            사랑에빠진남자
+          </h1>
         </div>
-
         <img src={vector3} alt="" className="vector3" />
+
       </div>
 
 
       <div className="main2">
+        <h1 className="sub2">
+          NMIXX, pH-1, g0nny 등<br />
+          다양한 아티스트들과 협업중!
+        </h1>
         <img src={vector4} alt="" className="vector4" />
         <img src={polarnozern} alt="polarnozern" className="polarnozern" />
         <img src={handsome1} alt="handsome1" className="handsome1" />
@@ -89,13 +80,21 @@ export default function WhoIsHe() {
 
       <div className="main3">
         <img src={profile3} alt="" className="profile3" />
+        <h1 className="sub3">nozern</h1>
         <img src={m1} alt="" className="m1" />
         <img src={m2} alt="" className="m2" />
         <img src={m3} alt="" className="m3" />
         <img src={paperc1} alt="" className="paperc1" />
         <img src={paperc2} alt="" className="paperc2" />
+        <h1 className="sub4">
+          다양한 활동들로<br />
+          베이스의 매력을<br />
+          널리 알리는 중<br />
+          ^_^
+        </h1>
         <img src={circlegy} alt="" className="circlegy" />
         <img src={joy} alt="" className="joy" />
+        <h1 className="sub5">JOY</h1>
         <img src={star5} alt="" className="star5" />
         <img src={star6} alt="" className="star6" />
         <img src={red} alt="" className="red" />
