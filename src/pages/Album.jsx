@@ -64,7 +64,7 @@ export default function Album() {
                 <img src={stayby} alt="" className="stayby" />
             </a>
             <h1 className="album3title">Stay By You</h1>
-            <h1 className="album3date">2024.06.12</h1>
+            <h1 className="album3date">2024.06.20</h1>
             
         </div>
 
