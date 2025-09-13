@@ -22,7 +22,7 @@
   top: -35px;
   transform: translateX(-50%);
 
-  font-family: 'BM kkubulim TTF';
+  font-family: 'BMKkubulim', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -36,7 +36,7 @@
 
 h1 {
   position: absolute;
-  font-family: 'BM kkubulim TTF';
+  font-family: 'BMKkubulim', sans-serif;
   font-style: normal;
   font-weight: 400;
   
