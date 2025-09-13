@@ -5,7 +5,7 @@ import nozern from "../assets/main/nozern.png";
 import vector1 from "../assets/main/Vector 1.png";
 import vector2 from "../assets/main/Vector 2.png";
 import ellipse from "../assets/main/Ellipse 1.png";
-import blockback from "../assets/main/blockback.png";
+import blockback from "../assets/main/blockbackoo.png";
 
 import lettere from "../assets/main/lettere.png";
 import lettern from "../assets/main/lettern.png";
