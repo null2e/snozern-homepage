@@ -5,7 +5,9 @@
   font-style: normal;
 }
 
-
+html, body {
+  overflow: hidden; /* body의 스크롤 기능을 아예 없애버립니다. */
+}
 
 html, body, #root {
   height: 100%;
