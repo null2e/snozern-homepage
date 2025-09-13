@@ -5,7 +5,7 @@
 .slogan {
   position: absolute;
   left: 33px;
-  top: -40px;
+  top: -15px;
 
   font-family: 'BMKkubulim', sans-serif;
   font-style: normal;
@@ -21,7 +21,7 @@
 
 .image-wrap {
   position: absolute;
-  top: 155px;
+  top: 180px;
   left: 0;
   width: 100%;
   height: auto;
@@ -54,7 +54,7 @@
   width: 299px;
   height: 144.21px;
   left: 0px;
-  top: 555px;
+  top: 580px;
   z-index: 3;
 }
 
@@ -63,7 +63,7 @@
   width: 67px;
   height: 320px;
   left: 296px;
-  top: 275px;
+  top: 300px;
   z-index: 1;
 }
 
@@ -74,7 +74,7 @@
   width: 166px;
   height: 166px;
   left: 25px;
-  top: 307px;
+  top: 332px;
   z-index: 0;
 }
 
@@ -83,7 +83,7 @@
   width: 393px;
   height: 52px;
   left: 0px;
-  top: 696px;
+  top: 721px;
   z-index: 5;
 }
 
@@ -94,7 +94,7 @@
   width: 84px;
   height: 84px;
   left: 268px;
-  top: 450px;
+  top: 475px;
   z-index: 6;
 }
 
@@ -103,7 +103,7 @@
   width: 110px;
   height: 110px;
   left: 258.62px;
-  top: 605px;
+  top: 630px;
   z-index: 6;
 }
 
@@ -112,7 +112,7 @@
   width: 80px;
   height: 90px;
   left: 270px;
-  top: 235px;
+  top: 260px;
   z-index: 7;
 }
 
@@ -121,7 +121,7 @@
   width: 80px;
   height: 95px;
   left: 220px;
-  top: 307.15px;
+  top: 332px;
   z-index: 1;
 }
 
@@ -130,7 +130,7 @@
   width: 94px;
   height: 94px;
   left: 290px;
-  top: 520px;
+  top: 545px;
   z-index: 7;
 }
 
@@ -139,7 +139,7 @@
   width: 60px;
   height: 75px;
   left: 234.47px;
-  top: 179.11px;
+  top: 204px;
   z-index: 6;
 }
 
@@ -148,7 +148,7 @@
   width: 90px;
   height: 90px;
   left: 280px;
-  top: 360px;
+  top: 385px;
   z-index: 6;
 }
 
@@ -159,7 +159,7 @@
   width: 57.68px;
   height: 57.68px;
   left: 55px;
-  top: 205px;
+  top: 230px;
   z-index: 8;
 }
 
@@ -168,6 +168,6 @@
   width: 42.3px;
   height: 42.3px;
   left: 50.49px;
-  top: 255px;
+  top: 280px;
   z-index: 8;
 }

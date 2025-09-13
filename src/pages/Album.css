@@ -8,10 +8,11 @@
     padding-bottom: 1900px;
 }
 
+
 .albumtitle {
   position: absolute;
   left: 50%;
-  top: -35px;
+  top: -30px;
   transform: translateX(-50%);
   font-family: 'BMKkubulim', sans-serif;
 

@@ -4,22 +4,16 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.main1, .main2, .main3 {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
 .main4 {
   position: relative;
   width: 100%;
-  padding-bottom: 748px;
+  padding-bottom: 773px;
 }
 
 .title {
   position: absolute;
   left: 50%;
-  top: -35px;
+  top: -30px;
   transform: translateX(-50%);
 
   font-family: 'BMKkubulim', sans-serif;
@@ -123,7 +117,7 @@ h1 {
   width: 167px;
   height: 31px;
   left: 167px;
-  top: 16px;
+  top: 20px;
   z-index: 1;
 }
 

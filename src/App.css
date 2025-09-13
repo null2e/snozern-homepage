@@ -34,12 +34,13 @@ html, body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   user-select: none;
+  z-index: 0;
 }
 
 
 .page-content-wrapper {
   position: absolute;
-  top: 105px; 
+  top: 80px; 
   bottom: 0;
   left: 0;
   right: 0;

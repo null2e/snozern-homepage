@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 105px;
+  height: 80px;
   background: rgba(249, 241, 220, 0.7);
   z-index: 100;
   border-top-left-radius: 20px;
@@ -18,7 +18,7 @@
 .brand-title {
   position: absolute; /* header를 기준으로 위치 */
   left: 33px;
-  top: 26px;
+  top: 15px;
   font-family: "Bowlby One", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -29,7 +29,7 @@
 .menu-icon-wrap {
   position: absolute;
   right: 33px;
-  top: 42px;
+  top: 32px;
   width: 22px;
   height: 18px;
   cursor: pointer;
@@ -43,6 +43,7 @@
   width: 100%;
   height: 100%;
   transition: opacity 0.3s ease-in-out;
+  z-index: 9999;
 }
 
 .menu-icon.visible { opacity: 1; }
