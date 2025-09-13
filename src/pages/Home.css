@@ -1,5 +1,7 @@
 .home {
   text-align: center;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .slogan {
