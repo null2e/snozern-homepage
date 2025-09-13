@@ -6,10 +6,9 @@
 }
 
 html, body {
-  overflow: hidden; /* 이중 스크롤 방지를 위해 그대로 둡니다. */
+  overflow: hidden;
 }
 
-/* --- ✅ 수정 1: 이 규칙을 #root에만 적용하도록 분리합니다. --- */
 #root {
   width: 100%;
   height: 100%;
@@ -18,40 +17,37 @@ html, body {
   align-items: center;      /* 세로 중앙 정렬 */
 }
 
-/* --- ✅ 수정 2: 여기서는 flex 관련 속성을 모두 제거합니다. --- */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* 모바일 앱 컨테이너 */
+
 .app-container {
   position: relative;
   width: 393px;
-  height: 100vh; /* 현재 화면 높이에 100% 맞춤 */
+  height: 100vh;
   max-height: 853px;
   background: #FAF2D8;
-  border-radius: 20px;
+
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  overflow: hidden; /* 메뉴와 콘텐츠를 잘라내기 위함 */
+  overflow: hidden;
   user-select: none;
-  /* --- ✅ 수정 3: 이 줄을 제거합니다. Flexbox가 정렬을 담당합니다. --- */
-  /* margin: 0 auto; */
 }
 
-/* --- 페이지 콘텐츠 스크롤 영역 --- */
+
 .page-content-wrapper {
   position: absolute;
-  top: 105px; /* 헤더 높이만큼 아래에서 시작 */
+  top: 105px; 
   bottom: 0;
   left: 0;
   right: 0;
-  overflow-y: auto; /* 여기서만 스크롤이 발생함 */
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-/* --- 사이드 메뉴 및 오버레이 (Header.css에서 이동) --- */
+
 .side-menu {
   position: absolute;
   top: 0;
